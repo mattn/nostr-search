@@ -1,0 +1,20 @@
+main {
+    display: flex;
+    margin-top: 10px;
+}
+
+main h4 {
+    font-size: 1em;
+    color: #222;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    line-height: 1.5;
+}
+
+.icon {
+  width: 32px;
+}
+
+#searchbox {
+  vertical-align: top;
+}
