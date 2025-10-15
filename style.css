@@ -33,7 +33,7 @@ main h4 {
 
 #searchInput::before {
   content: 'search';
-  font-family: 'Material Icons';
+  font-family: 'material-icons';
   position: absolute;
   left: 10px;
   top: 50%;
