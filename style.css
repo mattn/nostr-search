@@ -32,8 +32,8 @@ main h4 {
 }
 
 #searchInput::before {
-  content: 'search';
-  font-family: 'material-icons';
+  font-family: "Material Icons";
+  content: '\e5cc';
   position: absolute;
   left: 10px;
   top: 50%;
