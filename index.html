@@ -11,7 +11,10 @@
   <body>
     <h1>Nostr Search</h1>
     <header>
-      <input type="search" id="searchbox"/>
+      <div id="searchbox">
+        <i class="material-icons search-bar__icon">search</i>
+        <input type="search" id="search" placeholder="Search..."/>
+      </div>
     </header>
     <main>
       <div id="hits" class="card-group"></div>

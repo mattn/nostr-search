@@ -3,7 +3,7 @@ const client = new meilisearch.Meilisearch({
   apiKey: "988eb54177979e53e939c1075f77a8305bfbe2fda147566432d79252ff9c9084",
 });
 const nameMap = {};
-document.querySelector('#searchbox').addEventListener('input', (e) => {
+document.querySelector('#search').addEventListener('input', (e) => {
   if (e.target.value === '') {
     document.querySelector('#hits').innerHTML = '';
     return;

@@ -26,23 +26,25 @@ main h4 {
 }
 
 #searchbox {
-  vertical-align: top;
-  padding-left: 35px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  padding: 8px 12px;
+}
+
+#searchbox>i {
+  position: relative;
+  top: 2px;
+}
+
+#search {
+  border: none;
+  outline: none;
+  box-shadow: none;
+  position: relative;
+  top: -4px;
+  width: 300px;
   font-size: 16px;
 }
-
-#searchInput::before {
-  font-family: "Material Icons";
-  content: '\e5cc';
-  position: absolute;
-  left: 10px;
-  top: 50%;
-  transform: translateY(-50%);
-  color: #666;
-  font-size: 20px;
-  pointer-events: none;
-}
-
 
 .card-group{
   margin-left: auto;
